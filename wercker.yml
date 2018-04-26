@@ -24,6 +24,6 @@ deploy:
     - internal/docker-push:
         username: $USERNAME
         password: $PASSWORD
-        repository: zorteran/microservices-aspnetcore-hello-world
+        repository: maciejszymczyk/microservices-aspnetcore-hello-world
         registry: https://registry.hub.docker.com/
         entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
